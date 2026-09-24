@@ -1,0 +1,73 @@
+nav ul {
+    list-style-type: none; /* Quitamos las viñetas */
+    padding: 0;
+    margin: 0;
+}
+nav li 
+{
+    display: inline; /* Los elementos están en una línea horizontal */
+    margin-right: 20px; /* Espaciado entre ítems */
+}
+
+nav a {
+    text-decoration: none; /* Quitar subrayado */
+    color: #000; /* Color del texto */
+    padding: 5px 10px; /* Espaciado interno */
+    transition: background-color 0.3s; /* Suavizar el cambio de fondo */
+}
+
+nav a:hover {
+    background-color: #ddd; /* Color de fondo al pasar el cursor */
+    border-radius: 5px; /* Bordes redondeados */
+}
+nav
+{
+    background-color: #f4f4f4; /* Fondo del menú */
+    padding: 10px 0;
+}
+footer
+{
+    background-color: black;
+    color: blanchedalmond;
+}
+#caja1
+{
+    background-color: #000;
+    color: cornflowerblue;
+    font-family: charlemagne;
+    font-size: 15px;
+    font-weight: bold;
+    word-spacing: 5px;
+    padding: 20px;
+    margin-left:35px;
+    margin-bottom: 20px;
+}
+#caja2
+{
+    background-color:oldlace;
+    text-shadow: 2px 4px 6px #061e36;
+    letter-spacing: 7px;
+    padding: 20px 0px 6px 40px;
+    margin-bottom: 20px;
+}
+#caja3
+{
+    background-color: darksalmon;
+    padding: 20px;
+    position: relative;
+    left: 20px;
+    right:20px;
+    top:40px;
+    bottom:40px;
+}
+#caja4
+{
+    position: relative;
+    background-color: #ddd;
+    left: 20px;
+    right:20px;
+    top:40px;
+    bottom:40px;
+    box-shadow:  2px 5px 5px rgb(137, 13, 13);
+
+}

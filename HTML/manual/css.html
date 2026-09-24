@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>CSS - Teoría Web</title>
+
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+          crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+            crossorigin="anonymous">
+    </script>
+
+
+    <link rel="stylesheet" type="text/css" href="css/estilo2.css">
+
+    
+    <link rel="shortcut icon"
+          href="imagenes/logo.png"
+          type="image/x-icon">
+
+</head>
+
+<body>
+
+<header>
+    <img src="imagenes/cabecera.png"
+         width="100%"
+         height="300px">
+</header>
+
+
+
+
+<nav>
+
+    <ul>
+
+        <li><a href="home.html">Inicio</a></li>
+
+        <li><a href="conceptos.html">Conceptos</a></li>
+
+        <li><a href="Apis.html">API</a></li>
+
+        <li><a href="fronted.html">Frontend</a></li>
+
+        <li><a href="backend.html">Backend</a></li>
+
+        <li><a href="css.html">CSS</a></li>
+
+        <li><a href="datos.html">Presentación</a></li>
+
+    </ul>
+
+</nav>
+
+
+<section>
+
+    <h1>CSS</h1>
+
+    <p>
+        <strong>CSS</strong> significa
+        <em>Cascading Style Sheets</em>, que en español significa
+        <strong>Hojas de Estilo en Cascada</strong>.
+    </p>
+
+    <p>
+        CSS es un lenguaje utilizado para definir el diseño y la apariencia
+        de las páginas web. Trabaja principalmente junto con HTML para
+        transformar una estructura sencilla en una página visualmente
+        organizada y atractiva.
+    </p>
+
+
+    <div class="accordion" id="accordionCSS">
+
+
+        <!-- QUE ES CSS -->
+
+        <div class="accordion-item">
+
+            <h2 class="accordion-header">
+
+                <button class="accordion-button"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#queEsCSS"
+                        aria-expanded="true"
+                        aria-controls="queEsCSS">
+
+                    ¿Qué es CSS?
+
+                </button>
+
+            </h2>
+
+
+            <div id="queEsCSS"
+                 class="accordion-collapse collapse show"
+                 data-bs-parent="#accordionCSS">
+
+                <div class="accordion-body">
+
+                    <h2>¿Qué es CSS?</h2>
+
+                    <p>
+                        CSS es un lenguaje de estilos que permite controlar
+                        la apariencia de los elementos de una página web.
+                    </p>
+
+                    <h3>¿Para qué sirve?</h3>
+
+                    <p>
+                        Sirve para modificar la presentación de una página,
+                        incluyendo colores, tamaños, fuentes, fondos,
+                        espacios, bordes y distribución de los elementos.
+                    </p>
+
+                    <h3>Características principales</h3>
+
+                    <ul>
+
+                        <li>Cambia colores y fondos.</li>
+
+                        <li>Modifica tipos y tamaños de letra.</li>
+
+                        <li>Permite crear bordes.</li>
+
+                        <li>Permite organizar elementos.</li>
+
+                        <li>Permite crear animaciones.</li>
+
+                        <li>Permite adaptar las páginas a celulares.</li>
+
+                    </ul>
+
+                    <div class="dato">
+
+                        <strong>Ejemplo:</strong>
+                        CSS permite cambiar la apariencia de un título
+                        HTML para hacerlo más grande, cambiar su color
+                        y agregarle un fondo.
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- SELECTORES -->
+
+        <div class="accordion-item">
+
+            <h2 class="accordion-header">
+
+                <button class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#selectores"
+                        aria-expanded="false"
+                        aria-controls="selectores">
+
+                    Selectores
+
+                </button>
+
+            </h2>
+
+
+            <div id="selectores"
+                 class="accordion-collapse collapse"
+                 data-bs-parent="#accordionCSS">
+
+                <div class="accordion-body">
+
+                    <h2>Selectores CSS</h2>
+
+                    <p>
+                        Los selectores indican qué elementos HTML recibirán
+                        los estilos definidos en CSS.
+                    </p>
+
+                    <h3>Tipos de selectores</h3>
+
+                    <ul>
+
+                        <li>
+                            <strong>Etiqueta:</strong>
+                            selecciona elementos como p, h1 o div.
+                        </li>
+
+                        <li>
+                            <strong>Clase:</strong>
+                            utiliza el símbolo punto.
+                        </li>
+
+                        <li>
+                            <strong>ID:</strong>
+                            utiliza el símbolo #.
+                        </li>
+
+                        <li>
+                            <strong>Universal:</strong>
+                            utiliza el símbolo *.
+                        </li>
+
+                    </ul>
+
+                    <div class="ejemplo">
+
+                        <strong>Ejemplo:</strong>
+
+                        <br><br>
+
+                        <code>
+                            h1 {
+                                color: blue;
+                            }
+                        </code>
+
+                        <p>
+                            Este código cambia el color de todos los elementos
+                            h1 a azul.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+      
+
+        <div class="accordion-item">
+
+            <h2 class="accordion-header">
+
+                <button class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#colores"
+                        aria-expanded="false"
+                        aria-controls="colores">
+
+                    Colores y fondos
+
+                </button>
+
+            </h2>
+
+
+            <div id="colores"
+                 class="accordion-collapse collapse"
+                 data-bs-parent="#accordionCSS">
+
+                <div class="accordion-body">
+
+                    <h2>Colores y fondos</h2>
+
+                    <p>
+                        CSS permite cambiar los colores de los textos,
+                        fondos y diferentes elementos de una página.
+                    </p>
+
+                    <h3>¿Para qué sirve?</h3>
+
+                    <p>
+                        Sirve para mejorar la apariencia visual de una
+                        página y diferenciar sus diferentes secciones.
+                    </p>
+
+                    <h3>Propiedades principales</h3>
+
+                    <ul>
+
+                        <li><strong>color:</strong> cambia el color del texto.</li>
+
+                        <li>
+                            <strong>background-color:</strong>
+                            cambia el color del fondo.
+                        </li>
+
+                        <li>
+                            <strong>background-image:</strong>
+                            permite colocar imágenes de fondo.
+                        </li>
+
+                    </ul>
+
+                    <div class="ejemplo">
+
+                        <strong>Ejemplo:</strong>
+
+                        <br><br>
+
+                        <code>
+                            body {
+                                background-color: beige;
+                                color: black;
+                            }
+                        </code>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        
+
+        <div class="accordion-item">
+
+            <h2 class="accordion-header">
+
+                <button class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#bordes"
+                        aria-expanded="false"
+                        aria-controls="bordes">
+
+                    Bordes
+
+                </button>
+
+            </h2>
+
+
+            <div id="bordes"
+                 class="accordion-collapse collapse"
+                 data-bs-parent="#accordionCSS">
+
+                <div class="accordion-body">
+
+                    <h2>Bordes en CSS</h2>
+
+                    <p>
+                        Los bordes permiten agregar líneas alrededor de
+                        los elementos HTML.
+                    </p>
+
+                    <h3>¿Para qué sirven?</h3>
+
+                    <p>
+                        Sirven para destacar elementos, separar secciones
+                        y mejorar la presentación visual.
+                    </p>
+
+                    <h3>Propiedades</h3>
+
+                    <ul>
+
+                        <li>border</li>
+
+                        <li>border-color</li>
+
+                        <li>border-width</li>
+
+                        <li>border-style</li>
+
+                        <li>border-radius</li>
+
+                    </ul>
+
+                    <div class="ejemplo">
+
+                        <strong>Ejemplo:</strong>
+
+                        <br><br>
+
+                        <code>
+                            .caja {
+                                border: 3px solid green;
+                                border-radius: 10px;
+                            }
+                        </code>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        
+
+        <div class="accordion-item">
+
+            <h2 class="accordion-header">
+
+                <button class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#boxmodel"
+                        aria-expanded="false"
+                        aria-controls="boxmodel">
+
+                    Modelo de caja
+
+                </button>
+
+            </h2>
+
+
+            <div id="boxmodel"
+                 class="accordion-collapse collapse"
+                 data-bs-parent="#accordionCSS">
+
+                <div class="accordion-body">
+
+                    <h2>Modelo de caja o Box Model</h2>
+
+                    <p>
+                        En CSS todos los elementos HTML pueden entenderse
+                        como cajas.
+                    </p>
+
+                    <h3>Partes principales</h3>
+
+                    <ul>
+
+                        <li>
+                            <strong>Content:</strong>
+                            contenido.
+                        </li>
+
+                        <li>
+                            <strong>Padding:</strong>
+                            espacio interno.
+                        </li>
+
+                        <li>
+                            <strong>Border:</strong>
+                            borde.
+                        </li>
+
+                        <li>
+                            <strong>Margin:</strong>
+                            espacio externo.
+                        </li>
+
+                    </ul>
+
+                    <div class="dato">
+
+                        El Box Model es importante porque permite controlar
+                        el tamaño y los espacios que existen alrededor de
+                        los elementos.
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        
+
+        <div class="accordion-item">
+
+            <h2 class="accordion-header">
+
+                <button class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flexbox"
+                        aria-expanded="false"
+                        aria-controls="flexbox">
+
+                    Flexbox
+
+                </button>
+
+            </h2>
+
+
+            <div id="flexbox"
+                 class="accordion-collapse collapse"
+                 data-bs-parent="#accordionCSS">
+
+                <div class="accordion-body">
+
+                    <h2>¿Qué es Flexbox?</h2>
+
+                    <p>
+                        Flexbox es un sistema de diseño de CSS que permite
+                        organizar elementos dentro de un contenedor.
+                    </p>
+
+                    <h3>¿Para qué sirve?</h3>
+
+                    <p>
+                        Sirve para colocar elementos en filas o columnas,
+                        alinearlos y distribuir el espacio disponible.
+                    </p>
+
+                    <h3>Propiedades importantes</h3>
+
+                    <ul>
+
+                        <li>display: flex;</li>
+
+                        <li>justify-content</li>
+
+                        <li>align-items</li>
+
+                        <li>flex-direction</li>
+
+                        <li>gap</li>
+
+                    </ul>
+
+                    <div class="ejemplo">
+
+                        <strong>Ejemplo:</strong>
+
+                        <br><br>
+
+                        <code>
+                            .contenedor {
+                                display: flex;
+                                justify-content: center;
+                                gap: 20px;
+                            }
+                        </code>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+       
+
+        <div class="accordion-item">
+
+            <h2 class="accordion-header">
+
+                <button class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#responsive"
+                        aria-expanded="false"
+                        aria-controls="responsive">
+
+                    Diseño Responsive
+
+                </button>
+
+            </h2>
+
+
+            <div id="responsive"
+                 class="accordion-collapse collapse"
+                 data-bs-parent="#accordionCSS">
+
+                <div class="accordion-body">
+
+                    <h2>Diseño Responsive</h2>
+
+                    <p>
+                        El diseño responsive permite que una página web
+                        se adapte a diferentes tamaños de pantalla.
+                    </p>
+
+                    <h3>¿Para qué sirve?</h3>
+
+                    <p>
+                        Permite que una página funcione correctamente
+                        en computadores, tablets y teléfonos celulares.
+                    </p>
+
+                    <h3>Media Queries</h3>
+
+                    <p>
+                        Las Media Queries permiten aplicar diferentes
+                        estilos dependiendo del tamaño de la pantalla.
+                    </p>
+
+                    <div class="ejemplo">
+
+                        <strong>Ejemplo:</strong>
+
+                        <br><br>
+
+                        <code>
+                            @media (max-width: 768px) {
+
+                                body {
+                                    font-size: 14px;
+                                }
+
+                            }
+                        </code>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+     
+
+        <div class="accordion-item">
+
+            <h2 class="accordion-header">
+
+                <button class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#animaciones"
+                        aria-expanded="false"
+                        aria-controls="animaciones">
+
+                    Animaciones y transiciones
+
+                </button>
+
+            </h2>
+
+
+            <div id="animaciones"
+                 class="accordion-collapse collapse"
+                 data-bs-parent="#accordionCSS">
+
+                <div class="accordion-body">
+
+                    <h2>Animaciones y transiciones</h2>
+
+                    <p>
+                        CSS permite crear efectos visuales y movimientos
+                        en los elementos de una página.
+                    </p>
+
+                    <h3>Transiciones</h3>
+
+                    <p>
+                        Las transiciones permiten realizar cambios suaves
+                        entre diferentes estados de un elemento.
+                    </p>
+
+                    <div class="ejemplo">
+
+                        <strong>Ejemplo:</strong>
+
+                        <br><br>
+
+                        <code>
+                            button {
+                                transition: 0.3s;
+                            }
+
+                            button:hover {
+                                background-color: green;
+                            }
+                        </code>
+
+                    </div>
+
+                    <h3>Animaciones</h3>
+
+                    <p>
+                        Las animaciones permiten crear movimientos y
+                        cambios utilizando reglas como
+                        <strong>@keyframes</strong>.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+<footer>
+</footer>
+
+
+</body>
+
+</html>

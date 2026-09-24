@@ -1,0 +1,556 @@
+```html
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>APIs - Teoría Web</title>
+
+    <!-- MISMA RUTA DE TU CSS -->
+    <link rel="stylesheet" href="css/estilo2.css">
+
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+          rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- CABECERA -->
+    <header>
+
+        <img src="imagenes/cabecera.png"
+             class="img-fluid w-100"
+             alt="Cabecera">
+
+    </header>
+
+
+    <!-- MENÚ -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+        <div class="container-fluid">
+
+            <a class="navbar-brand" href="home.html">
+
+                <img src="imagenes/logo.png"
+                     width="45"
+                     height="45"
+                     alt="Logo">
+
+            </a>
+
+
+            <button class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#menu">
+
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+
+            <div class="collapse navbar-collapse" id="menu">
+
+                <ul class="navbar-nav">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="home.html">
+                            Home
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="conceptos.html">
+                            Conceptos
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="Apis.html">
+                            APIs
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="Frontend.html">
+                            Frontend
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="backend.html">
+                            Backend
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="css.html">
+                            CSS
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="datos.html">
+                            Datos
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+
+    <!-- CONTENIDO -->
+
+    <main class="container mt-5 mb-5">
+
+        <h1 class="text-center mb-4">
+            APIs
+        </h1>
+
+        <p class="text-center">
+            Ejemplo de consumo de una API utilizando información
+            de objetos cercanos a la Tierra.
+        </p>
+
+
+        <!-- ACORDEÓN -->
+
+        <div class="accordion mt-4" id="accordionAPI">
+
+
+            <!-- ¿QUÉ ES UNA API? -->
+
+            <div class="accordion-item">
+
+                <h2 class="accordion-header">
+
+                    <button class="accordion-button"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#apiUno">
+
+                        ¿Qué es una API?
+
+                    </button>
+
+                </h2>
+
+
+                <div id="apiUno"
+                     class="accordion-collapse collapse show">
+
+                    <div class="accordion-body">
+
+                        <p>
+                            Una API (Application Programming Interface)
+                            permite que diferentes aplicaciones puedan
+                            comunicarse e intercambiar información.
+                        </p>
+
+                        <p>
+                            En este ejemplo utilizamos una API de NASA
+                            para consultar información sobre objetos
+                            cercanos a la Tierra.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- API NASA -->
+
+            <div class="accordion-item">
+
+                <h2 class="accordion-header">
+
+                    <button class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#apiDos">
+
+                        API de NASA
+
+                    </button>
+
+                </h2>
+
+
+                <div id="apiDos"
+                     class="accordion-collapse collapse">
+
+                    <div class="accordion-body">
+
+                        <h3 class="mb-3">
+                            Objetos cercanos a la Tierra
+                        </h3>
+
+                        <p>
+                            Los siguientes datos son obtenidos
+                            directamente desde la API de NASA.
+                        </p>
+
+
+                        <!-- BOTÓN -->
+
+                        <div class="text-center mb-4">
+
+                            <button id="btnConsultar"
+                                    class="btn btn-primary">
+
+                                Consultar API de NASA
+
+                            </button>
+
+                        </div>
+
+
+                        <!-- MENSAJE -->
+
+                        <div id="mensaje"
+                             class="alert alert-secondary">
+
+                            Presiona el botón para consultar
+                            los datos.
+
+                        </div>
+
+
+                        <!-- RESULTADOS -->
+
+                        <div id="resultados">
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- INFORMACIÓN -->
+
+            <div class="accordion-item">
+
+                <h2 class="accordion-header">
+
+                    <button class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#apiTres">
+
+                        Información obtenida
+
+                    </button>
+
+                </h2>
+
+
+                <div id="apiTres"
+                     class="accordion-collapse collapse">
+
+                    <div class="accordion-body">
+
+                        <table class="table table-bordered table-striped">
+
+                            <thead class="table-dark">
+
+                                <tr>
+
+                                    <th>
+                                        Dato
+                                    </th>
+
+                                    <th>
+                                        Descripción
+                                    </th>
+
+                                </tr>
+
+                            </thead>
+
+                            <tbody>
+
+                                <tr>
+
+                                    <td>
+                                        Nombre
+                                    </td>
+
+                                    <td>
+                                        Nombre del objeto espacial.
+                                    </td>
+
+                                </tr>
+
+                                <tr>
+
+                                    <td>
+                                        Diámetro
+                                    </td>
+
+                                    <td>
+                                        Tamaño estimado del objeto.
+                                    </td>
+
+                                </tr>
+
+                                <tr>
+
+                                    <td>
+                                        Velocidad
+                                    </td>
+
+                                    <td>
+                                        Velocidad del objeto.
+                                    </td>
+
+                                </tr>
+
+                                <tr>
+
+                                    <td>
+                                        Distancia
+                                    </td>
+
+                                    <td>
+                                        Distancia aproximada respecto
+                                        a la Tierra.
+                                    </td>
+
+                                </tr>
+
+                                <tr>
+
+                                    <td>
+                                        Peligroso
+                                    </td>
+
+                                    <td>
+                                        Indica si NASA lo clasifica
+                                        como potencialmente peligroso.
+                                    </td>
+
+                                </tr>
+
+                            </tbody>
+
+                        </table>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+
+    <!-- PIE DE PÁGINA -->
+
+    <footer class="bg-dark text-white text-center p-3">
+
+        <p class="mb-0">
+            Teoría Web - APIs
+        </p>
+
+    </footer>
+
+
+    <!-- BOOTSTRAP -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js">
+    </script>
+
+
+    <!-- JAVASCRIPT DE LA API -->
+
+    <script>
+
+        const boton = document.getElementById("btnConsultar");
+
+        boton.addEventListener("click", consultarAPI);
+
+
+        async function consultarAPI() {
+
+            const mensaje = document.getElementById("mensaje");
+
+            const resultados = document.getElementById("resultados");
+
+
+            mensaje.className = "alert alert-info";
+
+            mensaje.innerHTML =
+                "Consultando información de NASA...";
+
+
+            resultados.innerHTML = "";
+
+
+            const url =
+                "https://api.nasa.gov/neo/rest/v1/feed" +
+                "?start_date=2026-09-24" +
+                "&end_date=2026-09-24" +
+                "&api_key=DEMO_KEY";
+
+
+            try {
+
+                const respuesta = await fetch(url);
+
+                const datos = await respuesta.json();
+
+
+                const objetos =
+                    datos.near_earth_objects["2026-09-24"];
+
+
+                mensaje.className = "alert alert-success";
+
+                mensaje.innerHTML =
+                    "Se encontraron " +
+                    objetos.length +
+                    " objetos cercanos a la Tierra.";
+
+
+                objetos.forEach(function(objeto) {
+
+
+                    const aproximacion =
+                        objeto.close_approach_data[0];
+
+
+                    const diametroMin =
+                        objeto.estimated_diameter
+                        .kilometers
+                        .estimated_diameter_min;
+
+
+                    const diametroMax =
+                        objeto.estimated_diameter
+                        .kilometers
+                        .estimated_diameter_max;
+
+
+                    const velocidad =
+                        aproximacion
+                        .relative_velocity
+                        .kilometers_per_hour;
+
+
+                    const distancia =
+                        aproximacion
+                        .miss_distance
+                        .kilometers;
+
+
+                    let peligro;
+
+
+                    if (objeto.is_potentially_hazardous_asteroid) {
+
+                        peligro =
+                            '<span class="badge bg-danger">Sí</span>';
+
+                    } else {
+
+                        peligro =
+                            '<span class="badge bg-success">No</span>';
+
+                    }
+
+
+                    resultados.innerHTML += `
+
+                        <div class="card mb-4 shadow">
+
+                            <div class="card-body">
+
+                                <h4 class="card-title">
+                                    ${objeto.name}
+                                </h4>
+
+                                <hr>
+
+                                <p>
+                                    <strong>ID:</strong>
+                                    ${objeto.id}
+                                </p>
+
+                                <p>
+                                    <strong>Diámetro estimado:</strong>
+                                    ${diametroMin.toFixed(2)}
+                                    -
+                                    ${diametroMax.toFixed(2)}
+                                    km
+                                </p>
+
+                                <p>
+                                    <strong>Velocidad:</strong>
+                                    ${Number(velocidad).toLocaleString()}
+                                    km/h
+                                </p>
+
+                                <p>
+                                    <strong>Distancia a la Tierra:</strong>
+                                    ${Number(distancia).toLocaleString()}
+                                    km
+                                </p>
+
+                                <p>
+                                    <strong>Fecha de aproximación:</strong>
+                                    ${aproximacion.close_approach_date}
+                                </p>
+
+                                <p>
+                                    <strong>Potencialmente peligroso:</strong>
+                                    ${peligro}
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    `;
+
+                });
+
+
+            } catch (error) {
+
+                mensaje.className = "alert alert-danger";
+
+                mensaje.innerHTML =
+                    "No se pudo obtener la información de NASA.";
+
+                console.error(error);
+
+            }
+
+        }
+
+    </script>
+
+</body>
+
+</html>
+```

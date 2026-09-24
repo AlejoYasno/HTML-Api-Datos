@@ -1,0 +1,99 @@
+<form method="post" action="./wfInformacionEstudiantesGrupo.aspx" id="ctl00">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="" />
+</div>
+<div>
+	<table class="table table-sm table-bordered" cellspacing="0" rules="all" border="1" id="ContentPlaceHolder1_gvEstudiantesGrupo" style="font-size:Small;border-collapse:collapse;">
+		<tr style="color:White;background-color:#6D88A6;font-weight:bold;">
+			<th scope="col">&nbsp;</th><th scope="col">PLAN ESTUDIOS</th><th scope="col">DOCUMENTO</th><th scope="col">C&#211;DIGO</th><th scope="col">NOMBRE</th><th scope="col">CORREO 1</th><th scope="col">CORREO 2</th><th scope="col">ESTADO FINANCIERO</th>
+		</tr><tr class="gridview-row">
+			<td>
+                                <span id="gvEstudiantesGrupo_Labels_0">1</span>
+                            </td><td>INGENIERIA_1_2018</td><td>1002876722</td><td>90123029</td><td>BASTO PILLIMUR RONALDO </td><td>rbastos@unimayor.edu.co</td><td>rbastos@unimayor.edu.co</td><td>PAGADO</td>
+		</tr><tr class="gridview-row">
+			<td>
+                                <span id="gvEstudiantesGrupo_Labels_1">2</span>
+                            </td><td>INGENIERIA_1_2018</td><td>1061805417</td><td>90217023</td><td>BURBANO CAMPO DANIEL FERNANDO</td><td>danielburbano@unimayor.edu.co</td><td>danielburbano@unimayor.edu.co</td><td>PAGADO</td>
+		</tr><tr class="gridview-row">
+			<td>
+                                <span id="gvEstudiantesGrupo_Labels_2">3</span>
+                            </td><td>INGENIERIA_2023</td><td>1061530504</td><td>90223030</td><td>CHANTRE VERNAZA CRISTOBAL ALEXANDER</td><td>c.chantre@unimayor.edu.co</td><td>cristobalvernaza@gmail.com</td><td>PAGADO</td>
+		</tr><tr class="gridview-row">
+			<td>
+                                <span id="gvEstudiantesGrupo_Labels_3">4</span>
+                            </td><td>INGENIERIA_2023</td><td>1110366548</td><td>90223021</td><td>CIFUENTES AGREDO SANTIAGO </td><td>s.cifuentes@unimayor.edu.co</td><td>santiagocifuentesagredo7540@gmal.com</td><td>PAGADO</td>
+		</tr><tr class="gridview-row">
+			<td>
+                                <span id="gvEstudiantesGrupo_Labels_4">5</span>
+                            </td><td>INGENIERIA_2023</td><td>1061817135</td><td>90223018</td><td>FUERTES PABON JHOAN SEBASTIAN</td><td>jfuertes@unimayor.edu.co</td><td>sebastianfuertespabon@outlook.com</td><td>PAGADO</td>
+		</tr><tr class="gridview-row">
+			<td>
+                                <span id="gvEstudiantesGrupo_Labels_5">6</span>
+                            </td><td>INGENIERIA_2023</td><td>1061704007</td><td>90223012</td><td>GARCES ROMERO ELKIN YOSETH</td><td>e.garces@unimayor.edu.co</td><td>elkingarces3112@gmail.com</td><td>PAGADO</td>
+		</tr><tr class="gridview-row">
+			<td>
+                                <span id="gvEstudiantesGrupo_Labels_6">7</span>
+                            </td><td>INGENIERIA_2023</td><td>1058548179</td><td>90223028</td><td>GARCIA HURTADO JUAN ESTEBAN</td><td>j.garcia@unimayor.edu.co</td><td>juanes19gh@gmail.com</td><td>PAGADO</td>
+		</tr><tr class="gridview-row">
+			<td>
+                                <span id="gvEstudiantesGrupo_Labels_7">8</span>
+                            </td><td>INGENIERIA_2023</td><td>1059238524</td><td>90223003</td><td>GAVIRIA CERON YEFERSON ADRIAN</td><td>y.gaviria@unimayor.edu.co</td><td>gaviriaceron001@gmail.com</td><td>PAGADO</td>
+		</tr><tr class="gridview-row">
+			<td>
+                                <span id="gvEstudiantesGrupo_Labels_8">9</span>
+                            </td><td>INGENIERIA_2023</td><td>1061697088</td><td>90223035</td><td>GOMEZ  CORTEZ  YONATAN  ESTIVEN </td><td>ygomez@unimayor.edu.co</td><td>yonatangomez033@gmail.com</td><td>PAGADO</td>
+		</tr><tr class="gridview-row">
+			<td>
+                                <span id="gvEstudiantesGrupo_Labels_9">10</span>
+                            </td><td>INGENIERIA_2023</td><td>1088944841</td><td>90223013</td><td>GOMEZ VILLAMUEZ KAREN LISBETH</td><td>k.gomez@unimayor.edu.co</td><td>karenvillamuez597@gmail.com</td><td>PAGADO</td>
+		</tr><tr class="gridview-row">
+			<td>
+                                <span id="gvEstudiantesGrupo_Labels_10">11</span>
+                            </td><td>INGENIERIA_2023</td><td>1002962518</td><td>90125001</td><td>LUBO BOLA&#209;OS JHON ESTIVEN</td><td>jlubo@unimayor.edu.co</td><td>estivenn186@hotmail.com</td><td>PAGADO</td>
+		</tr><tr class="gridview-row">
+			<td>
+                                <span id="gvEstudiantesGrupo_Labels_11">12</span>
+                            </td><td>INGENIERIA_2023</td><td>1002820948</td><td>90223020</td><td>MOSQUERA BASTIDAS DIANA ALEJANDRA</td><td>dmosquera@unimayor.edu.co</td><td>dianamosquera068@gmail.com</td><td>PAGADO</td>
+		</tr><tr class="gridview-row">
+			<td>
+                                <span id="gvEstudiantesGrupo_Labels_12">13</span>
+                            </td><td>INGENIERIA_1_2018</td><td>1002778088</td><td>90222013</td><td>MU&#209;OZ DAZA TATIANA </td><td>tmunozd@unimayor.edu.co</td><td>tatianadaza2020@gmail.com</td><td>PAGADO</td>
+		</tr><tr class="gridview-row">
+			<td>
+                                <span id="gvEstudiantesGrupo_Labels_13">14</span>
+                            </td><td>INGENIERIA_2023</td><td>1061691620</td><td>90223026</td><td>ORDO&#209;EZ GALINDEZ JUAN STEVAN</td><td>j.ordonez@unimayor.edu.co</td><td>juanchostevan123@gmail.com</td><td>PAGADO</td>
+		</tr><tr class="gridview-row">
+			<td>
+                                <span id="gvEstudiantesGrupo_Labels_14">15</span>
+                            </td><td>INGENIERIA_1_2018</td><td>1061703346</td><td>90222019</td><td>PALTA RAMIREZ MIGUEL ANGEL</td><td>mpalta@unimayor.edu.co</td><td>miguelpalta1130@gmail.com</td><td>PAGADO</td>
+		</tr><tr class="gridview-row">
+			<td>
+                                <span id="gvEstudiantesGrupo_Labels_15">16</span>
+                            </td><td>INGENIERIA_2023</td><td>1059237802</td><td>90223001</td><td>PERAFAN  DIAZ  JUAN ESTEBAN </td><td>juanperafan@unimayor.edu.co</td><td>perafandiazjuanesteban@gmail.com</td><td>PAGADO</td>
+		</tr><tr class="gridview-row">
+			<td>
+                                <span id="gvEstudiantesGrupo_Labels_16">17</span>
+                            </td><td>INGENIERIA_2023</td><td>1059236709</td><td>90223031</td><td>PERAFAN  TOMBE ALIX ELIANA </td><td>a.perafan@unimayor.edu.co</td><td>alixperafantombe@gmail.com</td><td>PAGADO</td>
+		</tr><tr class="gridview-row">
+			<td>
+                                <span id="gvEstudiantesGrupo_Labels_17">18</span>
+                            </td><td>INGENIERIA_1_2018</td><td>1002968431</td><td>90123022</td><td>PRADO  BRAVO  EDWIN  ALFONSO </td><td>eprado@unimayor.edu.co</td><td>edwin2003pb@gmail.com</td><td>PAGADO</td>
+		</tr><tr class="gridview-row">
+			<td>
+                                <span id="gvEstudiantesGrupo_Labels_18">19</span>
+                            </td><td>INGENIERIA_2023</td><td>1048067754</td><td>90223002</td><td>RENGIFO RODRIGUEZ  JOHAN STIVEN</td><td>j.rengifo@unimayor.edu.co</td><td>johanstivenrengifo@outlook.com</td><td>PAGADO</td>
+		</tr><tr class="gridview-row">
+			<td>
+                                <span id="gvEstudiantesGrupo_Labels_19">20</span>
+                            </td><td>INGENIERIA_2023</td><td>1058547562</td><td>90223025</td><td>RENGIFO SAMBONI ANGELA MARIA</td><td>a.rengifo@unimayor.edu.co</td><td>arengifosam@gmail.com</td><td>PAGADO</td>
+		</tr><tr class="gridview-row">
+			<td>
+                                <span id="gvEstudiantesGrupo_Labels_20">21</span>
+                            </td><td>INGENIERIA_2023</td><td>1058547053</td><td>90223024</td><td>RENGIFO VILLAMARIN JUAN DAVID</td><td>jd.rengifo@unimayor.edu.co</td><td>juandare567@gmail.com</td><td>PAGADO</td>
+		</tr><tr class="gridview-row">
+			<td>
+                                <span id="gvEstudiantesGrupo_Labels_21">22</span>
+                            </td><td>INGENIERIA_2023</td><td>1061710239</td><td>90223023</td><td>TORRES VASQUEZ JULIAN ANDRES</td><td>j.torres@unimayor.edu.co</td><td>julitorres1807@gmail.com</td><td>PAGADO</td>
+		</tr>
+	</table>
+</div></form>

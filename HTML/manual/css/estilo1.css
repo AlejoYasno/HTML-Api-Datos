@@ -1,0 +1,84 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* Hace que el padding y border no afecten el ancho total */
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* Fuente moderna y legible */
+    background-color: #f4f7fc;
+    /* Fondo gris azulado suave */
+    color: #1e2a3a;
+    /* Color de texto oscuro pero no negro puro */
+    line-height: 1.6;
+    /* Mejora la legibilidad */
+    padding: 20px;
+}  
+/* ============================================
+   HEADER - Cabecera principal
+   ============================================ */
+header {
+    background: linear-gradient(135deg, #0b1a2e, #1c3a5f);
+    /* Degradado azul oscuro moderno */
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+    border-radius: 16px 16px 0 0;
+    /* Bordes redondeados solo arriba */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    /* Sombra para dar profundidad */
+}
+
+header h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+header h1 span {
+    color: #ffb347;
+    /* Toque de color naranja para resaltar "WEB" */
+}
+
+header p {
+    font-size: 1.2rem;
+    opacity: 0.9;
+    margin-top: 8px;
+}
+
+/* ============================================
+   NAV - Barra de navegación
+   ============================================ */
+nav {
+    background-color: #1e2a3a;
+    /* Fondo oscuro para contraste */
+    padding: 12px 20px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    /* Espaciado entre enlaces */
+    flex-wrap: wrap;
+    /* Para que sea responsive */
+    border-bottom: 3px solid #ffb347;
+    /* Línea decorativa */
+}
+
+nav a {
+    color: #f0f4fa;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 6px 12px;
+    transition: all 0.3s ease;
+    /* Animación suave al pasar el mouse */
+    border-radius: 30px;
+}
+
+nav a:hover {
+    background-color: #ffb347;
+    color: #0b1a2e;
+    transform: scale(1.05);
+    /* Efecto de crecimiento sutil */
+}
